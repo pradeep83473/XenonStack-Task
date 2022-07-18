@@ -3,7 +3,7 @@ import cgi
 import mysql.connector
 import webbrowser
 
-webbrowser.open('login.html')
+webbrowser.open('logout.html')
 
 f = cgi.FieldStorage()
 fname = f.getvalue("fname")

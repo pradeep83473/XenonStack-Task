@@ -1,6 +1,9 @@
 #!C:/Python39/python
 import cgi
 import mysql.connector
+import webbrowser
+
+webbrowser.open('login.html')
 
 f = cgi.FieldStorage()
 fname = f.getvalue("fname")

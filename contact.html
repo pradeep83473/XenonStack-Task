@@ -1,0 +1,64 @@
+<!-- <!DOCTYPE html>
+<html lang="en"> -->
+
+<head>
+    <!-- <meta charset="UTF-8">
+	<title>Car Selling</title> -->
+    <!-- font-family -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+
+    <!-- font-awesome icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- custom-style  -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <form class="overlay-contact" action="myproj.py" method="post">
+
+        <div class="right contact-page">
+            <h5>Contact us</h5>
+            <p>Give me some feedback!</p>
+            <div class="Name input-form">
+                <div>
+                    <span>Name</span>
+                    <input type="text" name="fname" placeholder="Enter your  name">
+                </div>
+            </div>
+            <div class="phone input-form">
+                <div>
+                    <span>Phone number</span>
+                    <input type="text" name="phone" placeholder="Enter your number">
+                </div>
+            </div>
+            <div class="email input-form">
+                <div>
+                    <span>E-mail</span>
+                    <input type="text" name="email" placeholder="Enter e-mail id">
+                </div>
+
+            </div>
+            <div class="message  input-form">
+                <div>
+                    <span>Message</span>
+                    <input type="text" name="msg" placeholder="Wrte some text">
+                </div>
+            </div>
+            <br>
+
+            <button class="submit" type="submit" onclick="myFunction()"> <a href="logout.html">Submit</a></button>
+        </div>
+    </form>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("toaster");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+</body>
